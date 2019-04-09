@@ -2,7 +2,7 @@
   "name": "clicky-game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alexdavila39.github.io//React-Clicky-Game",
+  "homepage": "https://alexdavila39.github.io/React-Clicky-Game",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",

@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar(props) {
   return (
-    <nav className="navbar navbar-light bg-primary">
+    <nav className="navbar navbar-light">
     <div className="title"><h1>Clicky Game</h1>
     </div>
     <div className="guessPromt">{props.result}</div>
