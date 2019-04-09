@@ -4,6 +4,7 @@ import Jumbotron from "./Jumbotron";
 import Cards from "./cards";
 import Characters from "./characters.json"
 
+
 class app extends Component {
     state = {
      Characters,
@@ -15,7 +16,11 @@ class app extends Component {
 
     checkAnswer = id =>{
         if(this.state.alreadyChosen.indexOf(id)!== -1){
-            this.setState({result: "You Guessed incorrect"});
+            this.setState({
+           result: "You Guessed incorrect",
+            score:0
+            });
+            
             
         }else{
             this.setState({
