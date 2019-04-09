@@ -1,0 +1,14 @@
+import React from "react";
+
+function Navbar(props) {
+  return (
+    <nav class="navbar navbar-light bg-primary">
+    <div className="title"><h1>Clicky Game</h1>
+    </div>
+    <div className="guessPromt">{props.result}</div>
+    <div className = "Score">{props.score}</div>
+</nav>
+  );
+}
+
+export default Navbar;
