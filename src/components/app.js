@@ -3,6 +3,8 @@ import Navbar from "./navbar";
 import Jumbotron from "./Jumbotron";
 import Cards from "./cards";
 import Characters from "./characters.json"
+// import Modal from "./modal";
+import Footer from "./footer"
 
 
 class app extends Component {
@@ -10,25 +12,26 @@ class app extends Component {
      Characters,
      alreadyChosen: [],
      result: "You Guessed Correctly!",
-     score: 0
+     score: 0,
+    //  win:false
 
     }
 
     checkAnswer = id =>{
         if(this.state.alreadyChosen.indexOf(id)!== -1){
             this.setState({
-           result: "You Guessed incorrect",
+           result: "You Guessed incorrect!",
             score:0
-            });
-            
-            
+            });    
         }else{
             this.setState({
             alreadyChosen: this.state.alreadyChosen.concat(id),
-            result: "You Guessed Correctly",
-            score : this.state.score +1
-
+            result: "You Guessed Correctly!",
+            score : this.state.score +1    
             })
+        // if(this.state.score === 12){
+        //     this.setState({win:true})
+        // }
         }
     }
 
@@ -54,6 +57,10 @@ class app extends Component {
                 )}
                 </div>
                 </div>
+                {/* <Modal
+                win = {this.state.win}
+                /> */}
+                <Footer />
             </div>
         );
     }

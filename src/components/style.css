@@ -8,7 +8,7 @@
 
 
 .navbar{
-    background-color: rgb(168, 5, 5);
+    background-color: firebrick;
     position: fixed;
     left: 0;
     right: 0;
@@ -23,11 +23,22 @@ img{
 }
 
 .title{
-    color: darkslateblue;
+    color: rgb(4, 4, 158);
+    font-family: 'Bangers', cursive;
+    font-size: 60px;
 }
 
 .guessPrompt{
     text-align: center;
+    font-size: 35px;
+    font-family: 'Bangers', cursive;
+    
+}
+
+.Score{
+    font-family: 'Bangers', cursive;
+    margin-right: 10px;
+    font-size: 40px;
 }
 
 .jumbotron{
@@ -40,7 +51,13 @@ img{
 #jumboText{
     text-align: center;
     padding: 10px;
-    color: Black;
-  
-    text-shadow: 3px 3px 5px skyblue;
+    color: whitesmoke;
+    font-weight: 200px;
+    font-size: 20px;
+    font-family: 'Russo One', sans-serif;
+    text-shadow: 3px 3px 3px skyblue;
+}
+
+.footer{
+    text-align: center;
 }
