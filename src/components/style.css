@@ -5,10 +5,7 @@
     margin-bottom: 15px;
 }
 
-img{
-    height: 100%;
 
-}
 
 .navbar{
     background-color: rgb(168, 5, 5);
@@ -20,10 +17,30 @@ img{
     width: 100%;
 }
 
+img{
+    height: 100%;
+
+}
+
 .title{
     color: darkslateblue;
 }
 
 .guessPrompt{
     text-align: center;
+}
+
+.jumbotron{
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/04/The-Avengers-Logo-Wallpaper-HD.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+#jumboText{
+    text-align: center;
+    padding: 10px;
+    color: Black;
+  
+    text-shadow: 3px 3px 5px skyblue;
 }
